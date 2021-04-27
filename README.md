@@ -20,4 +20,13 @@ A Simple Torrent Searcher Telegram Bot Made in Python.
 * `START_MESSAGE`: Create your own start message
 * `FOOTER_TEXT`: Create your own Footer text
 
+### Credits:
+
+- [Sumanjay](https://github.com/cyberboysumanjay)
+- [Uvindu Bro Org](https://github.com/UvinduBroOrg)
+
+### Developers:
+
+-  [@UvinduBro](https://t.me/Uvindu_Bro)
+
 

@@ -6,8 +6,8 @@
         "torrent",
         "searcher"
     ],
-    "website": "https://github.com/Anandpskerala/TorrentSearcherBot",
-    "repository": "https://github.com/Anandpskerala/TorrentSearcherBot",
+    "website": "https://www.uvindubro.tk",
+    "repository": "https://github.com/UvinduBro/Torrent-Search-Bot",
     "env": {
         "API_ID": {
             "description": "Get it from my.telegram.org",
@@ -23,11 +23,11 @@
         },
         "START_MESSAGE": {
             "description": "",
-            "value": "*Hi ! I am a simple torrent searcher using @sjprojects's Torrent Searcher api.\n\n\nMade with 🐍 by @KeralasBots*"
+            "value": "*Hi ! I am a simple torrent searcher by @Uvindu_Bro 🇱🇰\n\n\n❤ Made by @Uvindu_Bro 🇱🇰</b>*"
         },
         "FOOTER_TEXT": {
             "description": "",
-            "value": "*Made with ❤️ by @KeralasBots*",
+            "value": "*~ Made by @UvinduBro 🇱🇰*",
             "required": false
         }
     },

@@ -44,19 +44,19 @@ async def get_inline_torrents(query):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Search Again", switch_inline_query_current_chat="")
+                InlineKeyboardButton("👨‍💻 Search Again 👨‍💻", switch_inline_query_current_chat="")
             ]
         ]
     )
     if len(query) == 0:
         result = [
             InlineQueryResultArticle(
-                "Search any keyword",
+                "👨‍💻Search any keyword",
                 input_message_content=InputTextMessageContent(
                     message_text=f"<b>Search any torrent\nExample :</b> <code>Avengers</code>\n\n{FOOTER_TEXT}"
                 ),
                 reply_markup=keyboard,
-                thumb_url="https://telegra.ph/file/f912df3632799acc19194.jpg"
+                thumb_url="https://telegra.ph/file/ab4b6aea0273efdb3ee22.jpg"
             )
         ]
     else:
@@ -70,7 +70,7 @@ async def get_inline_torrents(query):
                         message_text=f"<b>Sorry there is no results for your query {query}</b>\n\n{FOOTER_TEXT}"
                     ),
                     reply_markup=keyboard,
-                    thumb_url="https://telegra.ph/file/a16a7dac0dd63a13fd839.jpg"
+                    thumb_url="https://telegra.ph/file/ab4b6aea0273efdb3ee22.jpg"
                 )
             )
         else:
@@ -97,7 +97,7 @@ async def get_inline_torrents(query):
                             disable_web_page_preview=True
                         ),
                         reply_markup=keyboard,
-                        thumb_url="https://telegra.ph/file/edf59f013ad9df0145b34.jpg"
+                        thumb_url="https://telegra.ph/file/ab4b6aea0273efdb3ee22.jpg"
                     )
                 )
     return result
